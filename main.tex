@@ -1,0 +1,93 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{black}
+\usepackage[scale=0.75]{geometry}
+\usepackage[english]{babel}
+
+\ifxetexorluatex
+	\usepackage{fontspec}
+	\usepackage{unicode-math}
+	\defaultfontfeatures{Ligatures=TeX}
+	\setmainfont{Latin Modern Roman}
+	\setsansfont{Latin Modern Sans}
+	\setmonofont{Latin Modern Mono}
+	\setmathfont{Latin Modern Math}
+\else
+	\usepackage[T1]{fontenc}
+	\usepackage{lmodern}
+\fi
+
+% ------------------------------- PERSONAL DATA ------------------------------ %
+
+\name{Brandon}{Calderón Prieto}
+\title{Ingeniero de sistemas}
+%\born{26 Diciembre 2003}
+\address{}{Cali}{Colombia}
+\phone[mobile]{(+57) 301 5088603}
+\email{bcalderonprieto@gmail.com}
+%\homepage{}
+
+\social[github]{br4z}
+
+\photo[64pt][0.4pt]{picture}
+
+\begin{document}
+
+\makecvtitle
+
+\section{Educación}
+
+\cventry{2010--2020}{Bachillerato con especialidad en humanidades}{Institución Educativa Santa Fe}{Cali}{}{}
+\cventry{2021--actualidad}{Ingeniería de Sistemas}{Universidad del Valle}{Cali}{pregrado}{}
+
+\section{Lenguajes}
+
+\cvitemwithcomment{Español}{nativo}{}
+
+\cvitemwithcomment{Inglés}{B2}{certificado por la Universidad del Valle}
+
+\section{Habilidades}
+
+\cvskilllegend[0.5em]
+	[Básico]
+	[Intermedio]
+	[Avanzado]
+	[Experto]
+	[Maestro]
+	{Leyenda}
+\cvskillhead[-0.1em]
+	[Nivel]
+	[Habilidad]
+	[Años]
+	[Comentario]
+\cvskillentry*{Lenguajes:}{3}{Python}{2}{Desarrollo backend}
+\cvskillentry{}{3}{JavaScript}{2}{}
+\cvskillentry{}{2}{HTML + CSS}{2}{Desarrollo Web básico}
+\cvskillentry*{SO:}{3}{Linux (Arch)}{3}{Administración y personalización}
+\cvskillentry*{Herramientas:}{3}{Git y GitHub}{4}{}
+\cvskillentry{}{3}{Docker}{2}{}
+
+\section{Experiencia}
+
+\cventry{2023--2025}{Monitor Socio-Académico}{Estrategia ASES - Universidad del Valle}{Cali}{}{
+\begin{itemize}
+	\item Fomenté una cultura de curiosidad y superación, motivando a estudiantes de primeros semestres a explorar tecnologías y lenguajes de programación más allá del currículo académico.
+	\item Diseñé y lideré talleres prácticos sobre herramientas de desarrollo modernas (Git, Docker) y buenas prácticas, acelerando su curva de aprendizaje técnico.
+	\item Guié a los estudiantes en la resolución de desafíos académicos complejos, fortaleciendo no solo su conocimiento técnico sino también su confianza y autonomía.
+\end{itemize}}
+
+\section{Competencias}
+\cvlistitem{Trabajo en equipo y colaboración proactiva.}
+\cvlistitem{Comunicación técnica y mentoría.}
+\cvlistitem{Resolución de problemas en grupo.}
+\cvlistitem{Liderazgo y motivación de equipos.}
+
+\section{Intereses}
+
+\cvlistitem{Cultura del software libre y de código abierto (FOSS).}
+\cvlistitem{Exploración y personalización de diversos entornos de escritorio en Linux.}
+\cvlistitem{Automatización de tareas y flujos de trabajo mediante scripting.}
+
+% \section{Referencias}
+
+\end{document}
