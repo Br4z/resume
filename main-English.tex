@@ -1,0 +1,94 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{black}
+\usepackage[scale=0.75]{geometry}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{biblatex}
+\addbibresource{publications.bib}
+
+\ifxetexorluatex
+	\usepackage{fontspec}
+	\usepackage{unicode-math}
+	\defaultfontfeatures{Ligatures=TeX}
+	\setmainfont{Latin Modern Roman}
+	\setsansfont{Latin Modern Sans}
+	\setmonofont{Latin Modern Mono}
+	\setmathfont{Latin Modern Math}
+\else
+	\usepackage[T1]{fontenc}
+	\usepackage{lmodern}
+\fi
+
+% ------------------------------- PERSONAL DATA ------------------------------ %
+
+\name{Brandon}{Calderón Prieto}
+\title{Systems Engineering Student}
+%\born{26 December 2003}
+\address{}{Cali}{Colombia}
+\phone[mobile]{(+57) 301 5088603}
+\email{bcalderonprieto@gmail.com}
+%\homepage{}
+
+\social[github]{br4z}
+
+\photo[64pt][0.4pt]{picture}
+
+\begin{document}
+
+\makecvtitle
+
+\section{Professional Profile}
+
+Highly motivated Systems Engineering student with hands-on experience in modern tools such as Docker, Git, and Python. Passionate about creating efficient solutions and solving complex problems through technology.Eager to contribute my collaboration and technical mentorship skills in a professional role within the software engineering or IT infrastructure field.
+
+\section{Education}
+
+\cventry{2010--2020}{High School Diploma with emphasis in Humanities}{Institución Educativa Santa Fe}{Cali}{}{}
+\cventry{2021--Present}{B.S. in Systems Engineering}{Universidad del Valle}{Cali}{Undergraduate}{}
+
+\section{Experience}
+
+\cventry{2023--2025}{Socio-Academic Mentor}{ASES Strategy - Universidad del Valle}{Cali}{}{
+\begin{itemize}
+	\item Fostered a culture of curiosity and self-improvement, motivating first-semester students to explore technologies and programming languages beyond the academic curriculum.
+	\item Designed and led hands-on workshops on modern development tools (Git, Docker) and best practices, accelerating their technical learning curve.
+	\item Guided students in solving complex academic challenges, strengthening not only their technical knowledge but also their confidence and autonomy.
+\end{itemize}}
+
+\section{Languages}
+
+\cvitemwithcomment{Spanish}{Native}{}
+\cvitemwithcomment{English}{B2}{certified by Universidad del Valle}
+
+\section{Skills}
+
+\cvskilllegend*[1em]{}
+\cvskillhead[-0.1em]
+\cvskillentry*{Languages:}{3}{Python}{2}{Backend development}
+\cvskillentry{}{3}{JavaScript}{2}{}
+\cvskillentry{}{2}{HTML + CSS}{2}{Basic Web Development}
+\cvskillentry*{OS:}{3}{Linux}{3}{Administration and customization}
+\cvskillentry*{Tools:}{3}{Git and GitHub}{4}{}
+\cvskillentry{}{3}{Docker}{2}{}
+
+\section{Competencies}
+
+\cvlistitem{Teamwork and proactive collaboration.}
+\cvlistitem{Technical communication and mentorship.}
+\cvlistitem{Collaborative problem-solving.}
+\cvlistitem{Leadership and team motivation.}
+
+\section{Interests}
+
+\cvlistitem{Free and Open Source Software (FOSS) culture.}
+\cvlistitem{Exploring and customizing various Linux desktop environments.}
+\cvlistitem{Automating tasks and workflows through scripting.}
+
+% \section{Publications}
+
+% \printbibliography
+
+% \section{References}
+
+\end{document}
